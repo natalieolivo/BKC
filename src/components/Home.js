@@ -30,9 +30,15 @@ RkTheme.setType('RkButton', 'glow', {
 });
 
 class Home extends React.Component {
-	state = {
-		name : 'natnat'		
-	};	
+	
+	constructor(props) {
+		super(props);
+
+		this.state = {
+			name : 'natnat'		
+		};
+	}	
+
 	render() {
 		return (
 			<View style={styles.container}>

@@ -12,10 +12,10 @@ class GrowingText extends React.Component {
   	}
 
   	componentDidMount() {
-    	Animated.timing(                  // Animate over time
+    	Animated.timing(                 // Animate over time
       		this.state.textSizeAnim,            // The animated value to drive
       		{
-        		toValue: 30,                // Animate to opacity: 1 (opaque)
+        		toValue: 50,                // Animate to opacity: 1 (opaque)
         		duration: 400,
         		delay: 800,
       		}
